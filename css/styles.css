@@ -1,5 +1,31 @@
 .img1{
-  width: 50%;
-  height: auto;
+  width: 25%;
+float: middle;
+  align-items: center;
+
+
+}
+
+.intro {
+
+  font-style: italic;
+  text-align: center;
+
+}
+.important{
+  color: red;
+
+}
+.my-class{
+  border: 1px solid gray;
+  margin: 20px;
+  padding: 10px;
+}
+body{
+  font-family: sans-serif;
+}
+.my-class{
+  font-style: italic;
+  color: black;
 
 }
