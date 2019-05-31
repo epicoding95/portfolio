@@ -3,7 +3,6 @@
 float: middle;
   align-items: center;
 
-
 }
 
 .intro {
@@ -13,19 +12,42 @@ float: middle;
 
 }
 .important{
-  color: red;
+  color:black;
 
 }
-.my-class{
+.border-bar{
   border: 1px solid gray;
-  margin: 20px;
+  margin: 50Px;
   padding: 10px;
+  background-color: white;
 }
 body{
   font-family: sans-serif;
+  background-image:url(../img/beach.jpeg);
 }
-.my-class{
-  font-style: italic;
-  color: black;
+.slider{
+  width: 800px;
+  height: 400px;
+  background: url(beach.jpeg);
+  margin: 100px;
+  animation: slide 7s infinite;
+}
+@keyframes slide{
+  25%{
+    background: url(../img/beach.jpeg);
+  }
+  50%{background: url(../img/beach3.jpeg);
+  }
+  75%{background: url(../img/beach.jpeg);
+  }
+  100%{background: url(../img/beach3.jpeg);
+  }
+}
+}
+.color{
+  background-color: #d2672f
+}
 
+.spacing{
+  text-align: middle;
 }
